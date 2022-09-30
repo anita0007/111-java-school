@@ -7,6 +7,7 @@ public class Test2{
         num = num + 1;
         printStr(num);
         num += 1;
+        printStr(num);
         ++num;
         printStr(num);
         num++;
