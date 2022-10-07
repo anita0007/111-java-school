@@ -2,26 +2,28 @@ import java.util.Scanner;
 
 public class Test6{
     public static void main(String[] args){
-        int grade; 
+        int grade;
         
         Scanner input = new Scanner(System.in);
         System.out.println("Enter first integer:");
         grade =input.nextInt();
         switch (grade) {
             case 90:
-                println("A");
+                System.out.println("A");
                 break;
             case 80:
-                println("B");
+                System.out.println("B");
                 break;
             case 70:
-                println("C");
+                System.out.println("C");
                 break;
             case 60:
-                println("D");
+                System.out.println("D");
                 break;
             default:
-                println("E");
+                System.out.println("E");
                 break;
         }
+    }
+}
                 
