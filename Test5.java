@@ -2,24 +2,22 @@ import java.util.Scanner;
 
 public class Test5{
     public static void main(String[] args){
-        int num1;
-        int num2;
-        int sum;
+        int grade;
         
         Scanner input = new Scanner(System.in);
         System.out.println("Enter first integer:");
-        num1 =input.nextInt();
+        grade =input.nextInt();
         
-        if (num1 >= 90) {
+        if (grade >= 90) {
             System.out.println("A");
         }
-        else if (num1 >=80 ) {
+        else if (grade >=80 ) {
             System.out.println("B");
         }
-        else if (num1 >=70 ) {
+        else if (grade >=70 ) {
             System.out.println("C");
 			
-        else if (num1 >=60 ) {
+        else if (grade >=60 ) {
             System.out.println("D");
         }
         else {
