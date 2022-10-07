@@ -16,7 +16,7 @@ public class Test5{
         }
         else if (grade >=70 ) {
             System.out.println("C");
-			
+		}
         else if (grade >=60 ) {
             System.out.println("D");
         }
