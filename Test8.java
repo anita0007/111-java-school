@@ -7,9 +7,9 @@ public class Test8{
         
         while (grade < 10) {
             System.out.printf("%s",space);
-            space = space +" "; 
             System.out.printf("%d%n",grade);
-            grade = grade + 1;
+            grade = grade + 1;            
+            space = space +" "; 
         }
     }
 }
