@@ -9,9 +9,9 @@ public class Test7{
         grade =input.nextInt();
         
         if (grade > 100 ){
-            System.out.println("false");
+            System.out.println("error");
         } 
-        if (grade <= 100 ){        
+        else {      
             switch (grade / 10) {
                 case 10:
                 case 9:
@@ -29,7 +29,7 @@ public class Test7{
                 default:
                     System.out.println("E");
                     break;
-                }
+            }
         }        
     }
 }
